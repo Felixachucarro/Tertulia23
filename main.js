@@ -33,7 +33,7 @@ function showLoader() {
     if (y > 500) {
       $('#logito').attr('src', 'images/logo2.png');
     } else {
-      $('#logito').attr('src', 'https://i.ibb.co/XJF9hqJ/logo.png');
+      $('#logito').attr('src', 'https://i.ibb.co/Y2Z0K39/gif8.png');
     }
   });
   
