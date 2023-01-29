@@ -26,3 +26,16 @@ function showLoader() {
   
   // Oculta la pantalla de carga cuando la página esté cargada
   window.onload = hideLoader;
+
+
+  $(document).scroll(function() {
+    var y = $(this).scrollTop();
+    if (y > 500) {
+      $('#logito').attr('src', 'images/logo2.png');
+    } else {
+      $('#logito').attr('src', 'https://i.ibb.co/XJF9hqJ/logo.png');
+    }
+  });
+  
+  
+  
